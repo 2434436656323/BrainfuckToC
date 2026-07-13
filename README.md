@@ -10,10 +10,3 @@ Windows CMD.
 2. Пропишите type filename.bf | python bf2c.py > filename.c .
 3. Компиляция прописываем в cmd bin\gcc.exe -o filename.exe filename.c .
 4. Запуск просто пропишите filename.exe .
-Пример как я использовал:
-
-C:\Users\debug\Downloads\MinGW64>type test.bf | python bf2c.py > test.c
-C:\Users\debug\Downloads\MinGW64>bin\gcc.exe -o test.exe test.c
-C:\Users\debug\Downloads\MinGW64>test.exe
-Hello World!
-C:\Users\debug\Downloads\MinGW64>
