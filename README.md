@@ -12,32 +12,8 @@ Windows CMD.
 4. Запуск просто пропишите filename.exe .
 Пример как я использовал:
 
-
-C:\Users\debug\Downloads\MinGW64>type test.bf
-++++++++++
-[
->+++++++>++++++++++>+++>+<<<<-
-]
->++.
->+.
-+++++++.
-.
-+++.
->++.
-<<+++++++++++++++.
->.
-+++.
-------.
---------.
->+.
->.
-+++.
 C:\Users\debug\Downloads\MinGW64>type test.bf | python bf2c.py > test.c
-
 C:\Users\debug\Downloads\MinGW64>bin\gcc.exe -o test.exe test.c
-
 C:\Users\debug\Downloads\MinGW64>test.exe
 Hello World!
-
-
 C:\Users\debug\Downloads\MinGW64>
